@@ -1,0 +1,19 @@
+{
+  "name": "integralui",
+  "author": "LidorSystems",
+  "description": "IntegralUI Studio for Web",
+  "main": [
+    "css/integralui.css",
+    "css/integralui.checkbox.css",
+    "css/integralui.treeview.css",
+    "css/themes/theme-windows10.css",
+    "js/angular.integralui.min.js",
+    "js/angular.integralui.lists.min.js",
+    "js/angular.integralui.checkbox.min.js",
+    "js/angular.integralui.treeview.min.js"
+  ],
+  "keywords": [
+    "IntegralUI"
+  ],
+  "homepage": "http://www.lidorsystems.com/products/web/studio/"
+}
