@@ -289,6 +289,16 @@
 	border: 6px solid #242424;
 	border-color: transparent transparent transparent #242424;
 }
+.iui-grid-rows-top-block
+{
+	background: #282828;
+	border-bottom: thin solid #181818;
+}
+.iui-grid-rows-bottom-block
+{
+	background: #282828;
+	border-top: thin solid #181818;
+}
 
 /* --- IntegralUI List ----------------------------------------------- */
 .iui-list
@@ -770,6 +780,16 @@
 {
 	background: url(../../resources/collapse-rtl-white.png) no-repeat 0 0;
 }
+.iui-treegrid-rows-top-block
+{
+	background: #282828;
+	border-bottom: thin solid #181818;
+}
+.iui-treegrid-rows-bottom-block
+{
+	background: #282828;
+	border-top: thin solid #181818;
+}
 
 /* --- IntegralUI TreeView ----------------------------------------------- */
 .iui-treeview
@@ -819,6 +839,20 @@
 }
 .iui-treeview-item-disabled
 {
-	background-color: #363636;
-	color: #cecece;
+	background-color: #282828;
+	color: #c5c5c5;
+}
+.iui-treeview-block-top
+{
+	background: #282828;
+	border-bottom: thin solid #181818;
+}
+.iui-treeview-block-bottom
+{
+	background: #282828;
+	border-top: thin solid #181818;
+}
+.iui-treeview-item-fixed
+{
+	background: #282828;
 }

@@ -334,6 +334,14 @@
 	background: url(../../resources/expandbox-icons.png) no-repeat 0 -16px;
 	opacity: 0.25;
 }
+.iui-grid-rows-top-block
+{
+	border-bottom: thin solid #efefef;
+}
+.iui-grid-rows-bottom-block
+{
+	border-top: thin solid #efefef;
+}
 
 /* --- IntegralUI List ----------------------------------------------- */
 .iui-list
@@ -878,6 +886,14 @@
 	background: url(../../resources/expandbox-icons.png) no-repeat 0 -16px;
 	opacity: 0.25;
 }
+.iui-treegrid-rows-top-block
+{
+	border-bottom: thin solid #efefef;
+}
+.iui-treegrid-rows-bottom-block
+{
+	border-top: thin solid #efefef;
+}
 
 /* --- IntegralUI TreeView ----------------------------------------------- */
 .iui-treeview
@@ -956,5 +972,13 @@
 {
 	background: url(../../resources/expandbox-icons.png) no-repeat 0 -16px;
 	opacity: 0.25;
+}
+.iui-treegrid-rows-top-block
+{
+	border-bottom: thin solid #efefef;
+}
+.iui-treegrid-rows-bottom-block
+{
+	border-top: thin solid #efefef;
 }
 

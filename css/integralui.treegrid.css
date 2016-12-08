@@ -103,12 +103,12 @@
 }
 .iui-treegrid-column-header-cell-content, .iui-treegrid-column-footer-cell-content, .iui-treegrid-row-cell-label
 {
-	display: inline-block;
+	display: inline;
 	padding: 0 3px;
 	vertical-align: middle;
 	cursor: default;
 }
-.iui-treegrid-row
+.iui-treegrid-row, .iui-treegrid-row-fixed
 {
 	margin: 0;
 	padding: 0;
@@ -235,11 +235,26 @@
 {
 	border-left: 1px solid #ababab;
 }
-.iui-treegrid-rows-left
+.iui-treegrid-rows-left, .iui-treegrid-rows-left-top, .iui-treegrid-rows-left-bottom
 {
 	border-right: 1px solid #ababab;
 }
-.iui-treegrid-rows-right
+.iui-treegrid-rows-right, .iui-treegrid-rows-right-top, .iui-treegrid-rows-right-bottom
 {
 	border-left: 1px solid #ababab;
+}
+.iui-treegrid-rows-top-block
+{
+	background: #f6f6f6;
+	border-bottom: thin solid #efefef;
+}
+.iui-treegrid-rows-bottom-block
+{
+	background: #f6f6f6;
+	border-top: thin solid #c5c5c5;
+	z-index: 2;
+}
+.iui-treegrid-rows-bottom-block .iui-treegrid-row:last-child .iui-treegrid-lines-both
+{
+	border-bottom: 0;
 }

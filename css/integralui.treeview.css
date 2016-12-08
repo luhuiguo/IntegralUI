@@ -25,14 +25,31 @@
 {
 	direction: rtl;
 }
-.iui-treeview-block
+.iui-treeview-block, .iui-treeview-block-top, .iui-treeview-block-bottom
 {
 	margin: 0;
 	overflow: hidden;
-	padding: 1px;
+	padding: 0 1px; /*1px;*/
 	position: absolute;
-	top: 1px;
 	left: 2px;
+}
+.iui-treeview-block
+{
+	top: 1px;
+}
+.iui-treeview-block-top
+{
+	background: white;
+	top: 0;
+	border-bottom: thin solid #dedede;
+	z-index: 2;
+}
+.iui-treeview-block-bottom
+{
+	background: white;
+	bottom: 0;
+	border-top: thin solid #dedede;
+	z-index: 1;
 }
 .iui-treeview-block-rtl
 {
@@ -55,13 +72,21 @@
 {
 	padding: 0 15px 0 0;
 }
-.iui-treeview-item
+.iui-treeview-item, .iui-treeview-item-fixed
 {
 	display: block;
 	list-style-type: none;
-	margin: 2px 0;
+	margin: 1px 0;
 	padding: 0;
 	white-space: nowrap;
+}
+.iui-treeview-item-fixed
+{
+	background: #efefef;
+}
+.iui-treeview-item-fixed .iui-treeview-item-content:focus {
+    outline: none !important;
+    border: thin dotted transparent;
 }
 .iui-treeview-item-content
 {
